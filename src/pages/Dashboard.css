@@ -1,0 +1,41 @@
+.dashboard {
+    padding: 16px;
+}
+
+.dashboard-stats {
+    margin-bottom: 16px;
+}
+
+.stats-card {
+    text-align: center;
+    height: 100%;
+}
+
+.stats-card .ant-statistic-title {
+    font-size: 14px;
+    color: #666;
+}
+
+.stats-card .ant-statistic-content {
+    font-size: 28px;
+}
+
+.role-tag {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.role-tag.admin {
+    background: #fff7e6;
+    color: #fa8c16;
+    border: 1px solid #ffd591;
+}
+
+.role-tag.user {
+    background: #f6ffed;
+    color: #52c41a;
+    border: 1px solid #b7eb8f;
+}
